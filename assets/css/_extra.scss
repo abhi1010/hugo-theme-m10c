@@ -1,2 +1,16 @@
 // Do not add any CSS to this file in the theme sources.
 // This file can be overridden to add project-specific CSS.
+
+
+.tags-list-item-title .tag-count {
+  vertical-align: super;
+  /* Raises the text */
+  font-size: 0.75em;
+  /* Makes the font smaller (adjust as needed) */
+  /* Optional: Adjust color or spacing */
+  /* Example: Make it grey */
+  margin-left: 1px;
+  /* Add some space between number and text */
+  /* Prevent line break immediately after count, if desired */
+  display: inline-block;
+}
