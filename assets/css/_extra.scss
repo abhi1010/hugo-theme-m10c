@@ -17,8 +17,14 @@
 
 /* Gist Custom Syntax Highlighting SCSS
 --------------------------------------------- */
+// This is a custom syntax highlighting theme for Gist.
+// Keeps the default color of the code sections to be simple
+.highlight code {
+  color: rgba($light-color, .8);
+}
 
 body .gist {
+
 
   .gist-file {
     border: none;
@@ -26,6 +32,8 @@ body .gist {
   }
 
   .gist-data {
+
+
     background: #293134;
     border-radius: 4px 4px 0 0;
     color: #A0A8B3;
